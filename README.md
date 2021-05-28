@@ -13,3 +13,8 @@
 - Lasso'da katsayılar sıfıra yaklaştırılı.Fakat **L1** normu **lambda** yeteri kadar büyük olduğunda bazı katsayıları sıfır yapar.Böylece değişken seçimi yapmış oluruz.
 - **lambda**'nın doğru seçilmesi çok önemlidir.Burada da cv kullanılır.
 - **Ridge** ve **Lasso** yöntemi birbirinden üstün değildir.
+
+# Elastic-Net Regression
+
+- Amacımız hata kareler toplamını minimize eden katsayıları bu katsayılara bir ceza uygulayarak bulmaktır.
+- ElasticNet **L1** ve **L2** yaklaşımlarını birleştirir.
